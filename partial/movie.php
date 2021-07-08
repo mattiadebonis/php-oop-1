@@ -22,7 +22,7 @@
 
         //=> all'interno della classe è definito almeno un metodo
         public function getAge($yearMovie){
-            return date("Y") - yearMovie;
+            return date("Y") - $yearMovie;
         }
 
     }

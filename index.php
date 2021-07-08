@@ -18,11 +18,10 @@
 
         $starwarsV = new Movie("Star Wars Episodio V - L'impero colpisce ancora","Fantascienza", 5, "L'Impero colpisce ancora (The Empire Strikes Back) è un film del 1980, ed è il secondo film (in ordine di uscita) della saga di Star Wars." , 1980);
         
-        echo $starwarsIV->$title;
+        echo $starwarsIV->title;
     
         
-        
-        
+    
         
               
     ?>
