@@ -1,3 +1,8 @@
+<?php 
+    include __DIR__ . "../partial/movie.php";
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
