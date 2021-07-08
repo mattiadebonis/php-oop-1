@@ -12,17 +12,17 @@
 
 
         //=> all'interno della classe è definito un costruttore
-        function __construct ($title, $genre, $ranking, $description){
-            $this->title = $_title;
-            $this->genre = $_genre;
-            $this->ranking = $_ranking;
+        function __construct ($title, $genre, $ranking, $description, $year){
+            $this->title = $title;
+            $this->genre = $genre;
+            $this->ranking = $ranking;
             $this->description = $description;
             $this->year = $year;
         }
 
         //=> all'interno della classe è definito almeno un metodo
         public function getAge($yearMovie){
-            return date("Y") - $yearMovie;
+            return (date("Y") - $yearMovie);
         }
 
     }
